@@ -1,0 +1,33 @@
+<section class="resume-section p-3 p-lg-5 d-flex flex-column" id="accounts">
+  <div class="my-auto" id="accounts-content">
+    <h2 class="mb-5">Web accounts</h2>
+    {{ range $.Site.Data.accounts }}
+        <div class="subheading mb-3 skills-heading">{{ .grouping }}</div>
+            <ul>
+            {{ range .accounts }}
+                {{ if isset . "name" }}
+                    {{ $faicon :=  cond (isset . "icon") (lower .icon) (lower .name) }}
+
+                    {{ $fatype := cond (in $.Site.Data.iconfas ( $faicon )) ("fas") ("fab")}}
+                    <li class="list-inline-item">
+                      <i class="{{$fatype}} fa-{{ $faicon }}"></i>
+                      {{if isset . "link"}}
+                          <a href="{{.link}}">{{ .name }}</a>
+                      {{ else }}
+                          {{ .name }}
+                      {{ end }}
+                      {{ if isset . "id" }}
+                          : {{ .id }}
+                      {{ end }}
+                    </li>
+                {{ else }}
+                  <li class="list-inline-item">
+                    <i class="devicons devicons-{{ cond (in $.Site.Data.devicons (lower .)) (lower .) "terminal_badge" }}"></i>
+                    {{ . }}
+                  </li>
+                {{ end }}
+            {{ end }}
+            </ul>
+    {{ end }}
+  </div>
+</section>

@@ -1,0 +1,152 @@
+[
+  {
+    "grouping": "SNS",
+    "accounts": [
+      {
+        "name": "handon.club",
+        "link": "https://handon.club/@highemerly",
+        "icon": "mastodon"
+      },
+      {
+        "name": "fedibird.com",
+        "link": "https://fedibird.com/@highemerly",
+        "icon": "mastodon"
+      },
+      {
+        "name": "twitter",
+        "link": "https://twitter.com/highemerly"
+      }
+    ]
+  },
+  {
+    "grouping": "Messenger",
+    "accounts": [
+      {
+        "name": "discord",
+        "id": "はん#9001"
+      },
+      {
+        "name": "skype",
+        "link": "skype:highemerly?add"
+      }
+    ]
+  },
+  {
+    "grouping": "Media",
+    "accounts": [
+      {
+        "name": "instagram",
+        "link": "https://www.instagram.com/highemerly/"
+      },
+      {
+        "name": "youtube",
+        "link": "https://www.youtube.com/channel/UCQAGPX23970WQ2wTpM7aZqw"
+      },
+      {
+        "name": "twitch",
+        "link": "https://www.twitch.tv/highemerly48"
+      },
+      {
+        "name": "tumblr",
+        "link": "https://haaaan-blog.tumblr.com/"
+      }
+    ]
+  },
+  {
+    "grouping": "log",
+    "accounts": [
+      {
+        "name": "foursquare",
+        "link": "https://foursquare.com/highemerly"
+      },
+      {
+        "name": "jetlovers",
+        "link": "https://www.jetlovers.com/profile/20035/",
+        "icon": "plane"
+      },
+      {
+        "name": "のりつぶしオンライン",
+        "id": "haaaan",
+        "icon": "train"
+      },
+      {
+        "name": "経県値",
+        "link": "https://media.handon.club/media_attachments/files/107/898/724/382/279/219/original/8ee5d0335912a013.jpeg",
+        "icon": "map-marked-alt"
+      }
+    ]
+  },
+  {
+    "grouping": "technology",
+    "accounts": [
+      {
+        "name": "github",
+        "link": "https://github.com/highemerly/"
+      },
+      {
+        "name": "gitlab",
+        "link": "https://gitlab.com/highemerly",
+        "remark": "private repository only."
+      }
+    ]
+  },
+  {
+    "grouping": "Entertainment",
+    "accounts": [
+      {
+        "name": "nintendo switch",
+        "id": "SW-0153-1178-3336",
+        "icon": "gamepad",
+        "remark": "Splatoon 2."
+      },
+      {
+        "name": "steam",
+        "link": "https://steamcommunity.com/id/highemerly48"
+      },
+      {
+        "name": "e-amusement",
+        "link": "https://p.eagate.573.jp/gate/p/mypage/index.html?target_id=18728231",
+        "icon": "music"
+      },
+      {
+        "name": "dartslive",
+        "id": "HAAA",
+        "icon": "trophy"
+      },
+      {
+        "name": "annict",
+        "link": "https://annict.com/@highemerly",
+        "icon": "film"
+      }
+    ]
+  },
+  {
+    "grouping": "Gift",
+    "accounts": [
+      {
+        "name": "wishlist",
+        "link": "https://www.amazon.co.jp/hz/wishlist/ls/2GFSVDC4FW72T",
+        "icon": "amazon"
+      },
+      {
+        "name": "fantia",
+        "link": "https://fantia.jp/handon",
+        "icon": "donate",
+        "remark": "mainly for the administration of handon.club."
+      }
+    ]
+  },
+  {
+    "grouping": "other",
+    "accounts": [
+      {
+        "name": "keybase",
+        "link": "https://keybase.io/highemerly"
+      },
+      {
+        "name": "bookmark",
+        "link": "https://b.hatena.ne.jp/highemerly/"
+      }
+    ]
+  }
+]

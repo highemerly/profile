@@ -1,0 +1,36 @@
+        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+          <div class="my-auto">
+            <h2 class="mb-5">Contact</h2>
+            <div>English follows:</div>
+
+            <br>
+
+            <div class="contact-low-notice"><strong style="text-decoration: underline">[お願い]</strong> 私が運営する電気通信事業をはじめとするサービスにおいて，法的権利の請求・主張を行う場合は，必ず<a href="https://forms.gle/WbLTKqeaztVbAfJ27" target="_blank">Googleフォーム</a>からご連絡ください。 コンテンツホルダー様など権利者からの権利侵害関連の問合せ，国・行政機関またはその許可を得た者による情報開示請求なども対象です。
+            <div class="contact-low-notice"><strong style="text-decoration: underline">[Notice]</strong> Please kindly contact me by <a href="https://forms.gle/WbLTKqeaztVbAfJ27" target="_blank">Google form</a> when you have legal claims about my works. The claims are related to infringement of IP holder's rights or to information disclosure request by administrative organizations are assumed. Note that I can understand only Japanease or English language.</div>
+
+            <br>
+
+            <div>その他の連絡の場合は，以下の連絡先リストをご利用ください。</div>
+            <div>Other contact method follows:</div>
+            <br>
+            <ul>
+              {{ range .Site.Data.contact }}
+              <li class="list-item" style="list-style-type: decimal">
+                {{ .name }}:
+                {{ if isset . "link" }}
+                  <a href="{{.link}}">{{ .id }}</a>
+                {{ else }}
+                  {{ .id }}
+                {{ end }}
+              </li>
+              {{ end }}
+              <li class="list-item" style="list-style-type: decimal">
+                email:
+                <a href="mailto: {{ substr .Site.Params.email 0 6}}-remove-{{ substr .Site.Params.email 6 }}">{{ substr .Site.Params.email 0 6}}<span style="display:none">-remove-</span>{{ substr .Site.Params.email 6 }}</a>
+              </li>
+           </ul>
+           <br>
+           <div>可能な限り速やかな返信を心がけますが，48時間を超えて返信が無い場合は再送頂きますようお願いします。</div>
+           <div> If you couldn't confirm any response even after 48 hours or more, please kindly re-send it. Thank you.</div>
+           </div>
+        </section>
